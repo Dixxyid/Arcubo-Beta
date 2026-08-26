@@ -1,0 +1,129 @@
+/* CSS VARIABLE DISAMAKAN PERSIS DENGAN DASHBOARD.HTML */
+:root {
+    --bg-gradient: linear-gradient(135deg, #020510 0%, #080f26 50%, #010206 100%);
+    --glass-bg: rgba(255, 255, 255, 0.02);
+    --glass-border: rgba(255, 255, 255, 0.06);
+    --text-primary: #ffffff;
+    --text-secondary: #a4b0be;
+    --glow-cyan: #00d2d3;
+    --glow-blue: #00a8ff;
+    --accent-yellow: #ffd700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background: var(--bg-gradient);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container Glassmorphism serupa Dashboard */
+.glass-box {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 20px;
+    padding: 20px 24px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.glass-box:hover {
+    border-color: rgba(0, 168, 255, 0.3);
+}
+
+/* HEADER TITLE - GRADIENT CYAN TO BLUE */
+.title-gradient {
+    font-weight: 900;
+    font-size: 1.75rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: linear-gradient(to right, var(--glow-cyan), var(--glow-blue));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    filter: drop-shadow(0 0 12px rgba(0, 168, 255, 0.4));
+}
+
+/* RATING BINTANG KUNING GLOW (Persis Rating Dashboard) */
+.star {
+    cursor: pointer;
+    font-size: 2.2rem;
+    color: rgba(255, 255, 255, 0.12);
+    line-height: 1;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.star.active {
+    color: var(--accent-yellow);
+    filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.75));
+}
+
+.star:hover {
+    transform: scale(1.1);
+}
+
+/* INPUT FIELD DISESUAIKAN DENGAN GLASS THEMING */
+.input-custom {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    color: white;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+.input-custom:focus {
+    border-color: var(--glow-blue);
+    box-shadow: 0 0 15px rgba(0, 168, 255, 0.25);
+}
+
+/* TOMBOL UTAMA GRADIENT DENGAN EFEK GLOW DASHBOARD */
+.btn-main-style {
+    background: linear-gradient(135deg, #0056b3 0%, #00a8ff 100%);
+    box-shadow: 0 0 15px rgba(0, 168, 255, 0.3);
+    transition: all 0.2s ease;
+}
+
+.btn-main-style:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 25px rgba(0, 168, 255, 0.5);
+}
+
+/* TOMBOL SECONDARY DASHBOARD */
+.btn-sub-style {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    transition: all 0.2s ease;
+}
+
+.btn-sub-style:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--glow-blue);
+    color: white;
+}
+
+/* TOAST NOTIFIKASI GLASSMORPHISM */
+#toast {
+    visibility: hidden;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    opacity: 0;
+    transition: 0.4s ease;
+}
+#toast.show { visibility: visible; opacity: 1; }
