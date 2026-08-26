@@ -1,0 +1,16 @@
+{
+  "short_name": "ArCubo",
+  "name": "ArCubo - Learning & AR Solar System",
+  "icons": [
+    {
+      "src": "assets/web/web_bumi.webp",
+      "type": "image/webp",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/dashboard.html",
+  "background_color": "#0b0d17",
+  "theme_color": "#0b0d17",
+  "display": "standalone",
+  "orientation": "portrait"
+}

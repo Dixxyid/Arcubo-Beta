@@ -1,0 +1,1686 @@
+{
+  "55cancrie": {
+    "id": "55cancrie",
+    "title": "55 Cancri e",
+    "subtitle": "Eksoplanet Bumi Super Lautan Lava",
+    "image": "../assets/web/web_55cancrie.webp",
+    "astro_info": "55 Cancri e (dijuluki *Janssen*) adalah eksoplanet berkategori \"Bumi Super\" (*Super-Earth*) yang berorbit sangat dekat dengan bintang induknya, 55 Cancri A, berjarak sekitar 41 tahun cahaya dari Bumi di konstelasi Cancer. Memiliki periode revolusi yang sangat singkat—hanya sekitar 17,7 jam—planet ini terkunci secara pasang surut (*tidally locked*), menyebabkan satu sisinya selalu mengalami siang abadi dengan suhu ekstrem hingga lebih dari 2.000 °C yang mencairkan permukaannya menjadi lautan lava cair. Pengamatan Teleskop Luar Angkasa James Webb (JWST) mengindikasikan keberadaan atmosfer kaya karbon monoksida (CO) dan karbon dioksida (CO₂), sementara studi pemodelan teoritis menunjukkan interiornya kaya akan karbon yang terkompresi menjadi intan di bawah tekanan tinggi.",
+    "specs": [
+      {
+        "label": "Jenis Objek",
+        "value": "Eksoplanet Bumi Super (Super-Earth / Lava Planet)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Radius: ~1,95 R⊕ | Massa: ~7,99 M⊕"
+      },
+      {
+        "label": "Sistem Bintang",
+        "value": "55 Cancri A (Bintang Kerdil Kuning Tipe-G)"
+      },
+      {
+        "label": "Jarak dari Bumi",
+        "value": "~41 Tahanan Cahaya (12,5 Parsec)"
+      },
+      {
+        "label": "Periode Orbit",
+        "value": "17,7 Jam (0,73 Hari Bumi)"
+      },
+      {
+        "label": "Gravitasi Permukaan",
+        "value": "~21,0 m/s² (~2,14 Gravitasi Bumi)"
+      },
+      {
+        "label": "Komposisi Atmosfer",
+        "value": "Tebal Kaya Karbon Monoksida (CO) & Karbon Dioksida (CO₂)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "~2.400 K (Sisi Siang) / ~1.400 K (Sisi Malam)"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Kerak Lava Cair & Atmosfer Karbon (Magma Crust & Carbon Atmosphere)",
+        "desc": "Lapisan luar berupa lautan magmatik padatan silikat dan batuan meleleh akibat radiasi ekstrem bintang induk, diselimuti atmosfer volatil tebal kaya akan gas karbon."
+      },
+      {
+        "name": "2. Mantel Kaya Karbon & Intan (Carbon-Rich & Diamond Mantle)",
+        "desc": "Lapisan mantel yang kaya akan unsur karbon. Tekanan dan temperatur luar biasa tinggi di kedalaman ini diperkirakan mengubah karbon kristalin menjadi lapisan intan padat berukuran ribuan kilometer."
+      },
+      {
+        "name": "3. Inti Besi-Nikel Cair Super-Padat (Super-Dense Iron-Nickel Core)",
+        "desc": "Pusat eksoplanet berkerapatan sangat tinggi yang terdiri dari paduan logam besi-nikel cair dan silida karbon, menyusun sebagian besar massa gravitasional planet."
+      }
+    ],
+    "model_src": "../assets/object/glb_55cancrie/55cancrie.glb"
+  },
+  "asteroid": {
+    "id": "asteroid",
+    "title": "Asteroid",
+    "subtitle": "Asteroid (Sabuk Utama)",
+    "image": "../assets/web/web_asteroid.webp",
+    "astro_info": "Asteroid merupakan benda langit berbatu atau bernikel-besi berukuran kecil hingga sedang yang utamanya mengorbit Matahari di wilayah Sabuk Utama (Main Asteroid Belt) antara orbit Mars dan Yupiter. Berbeda dengan planet, asteroid tidak memiliki massa yang cukup untuk mencapai kesetimbangan hidrostatik (berbentuk bola sempurna), sehingga mayoritas asteroid memiliki morfologi tidak teratur (asimetris). Asteroid dianggap sebagai sisa-sisa blok pembentuk planet (planetesimal) dari era awal pembentukan Tata Surya sekitar 4,6 miliar tahun lalu yang gagal menyatu menjadi planet akibat gangguan gravitasi (gravitational resonance) dari Yupiter yang sangat masif. Asteroid bervariasi dari tumpukan puing berpori (rubble-pile) hingga objek logam padat.",
+    "specs": [
+      {
+        "label": "Jenis Klasifikasi",
+        "value": "Objek Kecil Tata Surya (Planetesimal Berbatu/Logam)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Ukuran: 1 m – 530 km (Vesta) | Massa: Bervariasi (<10²¹ kg)"
+      },
+      {
+        "label": "Komposisi",
+        "value": "Tipe-C (Karbonat/75%), Tipe-S (Silikat/17%), Tipe-M (Besi-Nikel/8%)"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Hampa Udara Ekstrem (Tanpa Atmosfer & Iklim)"
+      },
+      {
+        "label": "Rotasi",
+        "value": "Bervariasi Ekstrem (~2 Jam hingga Beberapa Hari)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "Sangat Lemah (<0,01 m/s² tergantung massa objek)"
+      },
+      {
+        "label": "Satelit",
+        "value": "Beberapa Asteroid Memiliki Bulan Kecil (Contoh: Ida & Dactyl)"
+      },
+      {
+        "label": "Jarak Tempuh ( AU )",
+        "value": "2,2 AU hingga 3,2 AU (Sabuk Utama)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "~ -73 °C hingga -143 °C (Tergantung Albedo & Jarak)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "Dingin / Sama dengan Suhu Permukaan (Objek Kecil Mati)"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Tipe-C (Asteroid Karbonat / Carbonaceous)",
+        "desc": "Kelompok asteroid terbanyak (~75%). Berwarna sangat gelap dengan albedo rendah (<0,05). Kaya akan senyawa karbon, batuan silikat terhidrasi, serta bahan organik purba yang hampir tidak berubah sejak awal pembentukan Tata Surya."
+      },
+      {
+        "name": "2. Tipe-S (Asteroid Silikat / Stony)",
+        "desc": "Populasi terbesar kedua (~17%). Terdiri dari campuran besi-magnesium silikat (olivin dan piroksen) serta logam nikel-besi. Memiliki albedo sedang (0,10–0,22) dan mendominasi bagian dalam Sabuk Utama."
+      },
+      {
+        "name": "3. Tipe-M (Asteroid Metalik / Metallic)",
+        "desc": "Tipe asteroid yang didominasi oleh paduan logam murni nikel dan besi. Diduga merupakan sisa pecahan inti logam dari protoplanet terintegrasi yang hancur akibat benturan cataclysmic di masa purba."
+      },
+      {
+        "name": "4. Struktur Tumpukan Puing (Rubble-Pile vs Monolithic)",
+        "desc": "Mayoritas asteroid berukuran >200 meter bukan merupakan batu tunggal padat, melainkan kumpulan fragmen pecahan batu berpori tinggi yang disatukan oleh gaya gravitasi internal yang sangat lemah."
+      }
+    ],
+    "model_src": "../assets/object/glb_asteroid/asteroid.glb"
+  },
+  "bimasakti": {
+    "id": "bimasakti",
+    "title": "Bima Sakti",
+    "subtitle": "Galaksi Spiral",
+    "image": "../assets/web/web_bimasakti.webp",
+    "astro_info": "Galaksi Bima Sakti (Milky Way) adalah galaksi spiral berpalang (*barred spiral galaxy*) raksasa yang menampung Tata Surya kita dan diperkirakan berisi antara 100 hingga 400 miliar bintang. Berdiameter sekitar 100.000–180.000 tahun cahaya, galaksi ini memiliki struktur piringan berputar yang dihubungkan oleh sebuah palang pusat (*central bar*) dan lengan-lengan spiral berdebu kaya gas tempat pembentukan bintang baru. Di pusat ekstrem Bima Sakti bersemayam sebuah lubang hitam supermasif yang dikenal sebagai **Sagittarius A*** (Sgr A*). Tata Surya kita berlokasi di Lengan Orion (*Orion Arm*), berjarak sekitar 27.000 tahun cahaya dari pusat galaksi, dan membutuhkan waktu sekitar 230 juta tahun untuk menyelesaikan satu kali orbit galaktik (*Galactic Year*).",
+    "specs": [
+      {
+        "label": "Bentuk (Morfologi)",
+        "value": "Spiral Berpalang (SBbc Klasifikasi Hubble)"
+      },
+      {
+        "label": "Ukuran (Diameter)",
+        "value": "~100.000 - 180.000 Tahun Cahaya (~30 Kiloparsec)"
+      },
+      {
+        "label": "Jumlah Bintang",
+        "value": "~100 - 400 Miliar Bintang"
+      },
+      {
+        "label": "Tipe Inti (Pusat)",
+        "value": "Inti Galaktik Aktif / Lubang Hitam Supermasif (Sagittarius A*)"
+      },
+      {
+        "label": "Kandungan Gas & Debu",
+        "value": "~10-15% Massa Barionik (Awan H I & H II, Debu Interstelar)"
+      },
+      {
+        "label": "Laju Kelahiran Bintang",
+        "value": "~0,68 - 1,45 Massa Matahari per Tahun (M☉/tahun)"
+      },
+      {
+        "label": "Umur Galaksi",
+        "value": "~13,6 Miliar Tahun (Hampir Seumur Alam Semesta)"
+      },
+      {
+        "label": "Kelompok Galaksi",
+        "value": "Grup Lokal (Local Group) bersama Andromeda dan Triangulum."
+      },
+      {
+        "label": "Massa Galaksi",
+        "value": "~1,5 Triliun M☉ (Termasuk Halo Materi Gelap)"
+      },
+      {
+        "label": "Kecepatan Orbit Matahari",
+        "value": "~220 - 240 km/s (Periode Orbit ~230 Juta Tahun)"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Tonjolan Pusat & Palang (Galactic Bulge & Central Bar)",
+        "desc": "Wilayah pusat yang sangat padat berisi populasi bintang tua (Populasi II), gas bertekanan tinggi, dan struktur palang memanjang yang menampung lubang hitam supermasif Sagittarius A*."
+      },
+      {
+        "name": "2. Piringan Galaktik & Lengan Spiral (Galactic Disk & Spiral Arms)",
+        "desc": "Piringan tipis berputar berisi bintang muda (Populasi I), debu antar-bintang, dan awan molekuler. Terdiri dari lengan utama seperti Perseus, Scutum-Centaurus, Sagittarius, dan Orion."
+      },
+      {
+        "name": "3. Halo Galaksi & Halo Materi Gelap (Galactic & Dark Matter Halo)",
+        "desc": "Komponen berbentuk bola melingkupi piringan galaksi yang berisi gugus bola (*globular clusters*) kuno serta didominasi oleh konsentrasi materi gelap (*dark matter*) penyokong massa galaksi."
+      }
+    ],
+    "model_src": "../assets/object/glb_milkyway/milkyway.glb"
+  },
+  "bumi": {
+    "id": "bumi",
+    "title": "Bumi",
+    "subtitle": "Bumi",
+    "image": "../assets/web/web_bumi.webp",
+    "astro_info": "Bumi merupakan planet ketiga dari Matahari sekaligus objek astronomi terbesar dan terpadat di antara empat planet terestrial Tata Surya. Bumi adalah satu-satunya benda langit yang terkonfirmasi memiliki kehidupan, ditopang oleh keberadaan air cair yang stabil di permukaannya (hidrosfer) serta atmosfer kaya nitrogen-oksigen. Bumi memiliki magnetosfer yang kuat akibat efek geodinamis arus konveksi paduan besi-nikel cair di inti luar, yang melindungi biosfer dari radiasi kosmik dan angin surya. Secara geologis, Bumi adalah satu-satunya planet terestrial yang mempertahankan tektonika lempeng aktif, yang berperan penting dalam siklus karbon sirkulasi global dan pembaruan permukaan secara terus-menerus. Bumi dikelilingi oleh satu satelit alami masif, yaitu Bulan, yang menstabilkan kemiringan sumbu rotasi Bumi (23,44°) dan memicu dinamika pasang surut air laut.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Planet Terestrial (Batuan)"
+      },
+      {
+        "label": "Ukuran",
+        "value": "6.371,0 km (Jari-jari Rata-rata)"
+      },
+      {
+        "label": "Komposisi Utama",
+        "value": "78,08% Nitrogen (N₂), 20,95% Oksigen (O₂), 0,93% Argon (Ar), 0,04% Karbon Dioksida (CO₂)"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Moderat Terkontrol (Efek Rumah Kaca Alami)"
+      },
+      {
+        "label": "Rotasi",
+        "value": "23 Jam 56 Menit 4 Detik (Hari Sideris)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "9,80665 m/s² (1,00× Standar)"
+      },
+      {
+        "label": "Satelit",
+        "value": "1 (Bulan / The Moon)"
+      },
+      {
+        "label": "Jarak Tempuh Cahaya",
+        "value": "1,00 AU (~8,3 Menit Cahaya)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "~15 °C (Rata-rata Global; -89 °C hingga 56,7 °C)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~5.200 °C - 6.000 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Inti Dalam Padat (Inner Core)",
+        "desc": "Bola besi-nikel padat di pusat planet dengan jari-jari sekitar 1.220 km. Berada di bawah tekanan sangat tinggi (~330 hingga 360 GPa) yang menjaga logam tetap padat meskipun suhunya setara dengan permukaan Matahari."
+      },
+      {
+        "name": "2. Inti Luar Cair (Outer Core)",
+        "desc": "Lapisan fluida paduan besi-nikel setebal ~2.260 km. Arus konveksi yang dipicu oleh pendinginan internal dan efek Coriolis rotasi Bumi di lapisan ini membangkitkan medan magnet alami planet (geodinamika)."
+      },
+      {
+        "name": "3. Mantel Silikat (Mantle)",
+        "desc": "Lapisan batuan silikat kaya besi dan magnesium setebal ~2.900 km. Berperan dalam proses konveksi termal melintasi astenosfer yang menggerakkan lempeng-lempeng tektonik di bagian atasnya."
+      },
+      {
+        "name": "4. Kerak dan Litosfer (Crust & Lithosphere)",
+        "desc": "Lapisan terluar berupa batuan padat kaku. Terdiri dari kerak samudera tipis (5–10 km, basaltik) dan kerak benua tebal (30–70 km, granitis), yang terbagi menjadi lempeng-lempeng tektonik bergerak."
+      },
+      {
+        "name": "5. Hidrosfer & Atmosfer (Ocean & Atmosphere)",
+        "desc": "Selubung fluida luar yang terdiri dari samudra air cair yang menutupi ~71% permukaan, serta lapisan atmosfer multilapis (troposfer hingga eksosfer) yang menyaring sinar ultraviolet berbahaya dan menjaga kestabilan termal planet."
+      }
+    ],
+    "model_src": "../assets/object/glb_bumi/bumi.glb"
+  },
+  "ceres": {
+    "id": "ceres",
+    "title": "Ceres",
+    "subtitle": "1 Ceres (Planet Katai)",
+    "image": "../assets/web/web_ceres.webp",
+    "astro_info": "Ceres (1 Ceres) adalah planet katai terbesar sekaligus objek tunggal terbesar di dalam Sabuk Utama\n                asteroid yang terletak di antara orbit Mars dan Yupiter. Ditemukan oleh Giuseppe Piazzi pada tahun 1801,\n                Ceres awalnya diklasifikasikan sebagai planet, kemudian asteroid selama lebih dari satu abad, hingga\n                akhirnya ditetapkan sebagai planet katai oleh International Astronomical Union (IAU) pada tahun 2006.\n                Ceres adalah satu-satunya planet katai di Tata Surya bagian dalam. Karena massanya menyumbang sekitar\n                sepertiga (30%) dari total massa Sabuk Utama, Ceres memiliki gravitasi yang cukup untuk mencapai\n                kesetimbangan hidrostatik, menjadikannya berbentuk spheroid terkompresi. Ceres kaya akan kandungan es\n                air dan mineral terhidrasi, bahkan diduga memiliki lautan air asin di bawah permukaannya.",
+    "specs": [
+      {
+        "label": "Jenis Klasifikasi",
+        "value": "Planet Katai (Dwarf Planet) / Asteroid Tipe-G"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: ~939,4 km | Massa: 9,39 × 10²⁰ kg"
+      },
+      {
+        "label": "Komposisi",
+        "value": "Es Air, Mineral Terhidrasi (Tanah Liat), Karbonat, & Silikat"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Dingin Hampa | Sublimasi Es Tipis (Eksosfer Uap Air)"
+      },
+      {
+        "label": "Rotasi",
+        "value": "9 Jam 4 Menit (0,378 Hari Bumi)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "0,27 m/s² (~0,028 g Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "0 (Tidak Memiliki Satelit Alami)"
+      },
+      {
+        "label": "Jarak Tempuh ( AU )",
+        "value": "2,77 AU (~413,7 juta km)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-73 °C (Maksimum) hingga -143 °C (Minimum)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~ 100 °C hingga 200 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Kerak Luar (Crust)",
+        "desc": "Lapisan tipis setebal ~40 km yang terdiri dari campuran es air, garam\n                        natrium karbonat, tanah liat kaya amonium, dan silikat terhidrasi. Permukaannya memiliki albedo\n                        rendah (gelap) namun memiliki banyak titik terang (faculae)."
+      },
+      {
+        "name": "2. Mantel Kaya Es & Air (Ice-Rich Mantle)",
+        "desc": "Lapisan tebal yang kaya akan es air, lumpur mineral, dan larutan air\n                        asin (brine). Diduga menyimpan lautan air asin purba di bawah kerak yang masih tersisa dalam\n                        bentuk saku-saku cairan terperangkap."
+      },
+      {
+        "name": "3. Inti Berbatu (Rocky Core)",
+        "desc": "Inti dalam berbentuk bulat yang padat dan kaya akan batuan silikat\n                        terdehidrasi serta besi-magnesium. Massanya mencakup porsi terbesar dari interior Ceres."
+      },
+      {
+        "name": "4. Kawah Occator & Ahuna Mons (Fitur Unik)",
+        "desc": "Kawah Occator terkenal dengan deposit natrium karbonat terang (Cerealia\n                        Facula) yang diendapkan oleh aktivitas kriovolkanisme (gunung berapi es). Ahuna Mons adalah\n                        gunung dom kriovolkanik setinggi 4 km yang terbentuk dari ekstrusi lumpur asin."
+      }
+    ],
+    "model_src": "../assets/object/glb_ceres/ceres.glb"
+  },
+  "comet": {
+    "id": "comet",
+    "title": "Komet",
+    "subtitle": "Bola Es Berdebu Penjelajah Tata Surya",
+    "image": "../assets/web/web_comet.webp",
+    "astro_info": "Komet adalah benda kecil Tata Surya yang sebagian besar terdiri dari campuran es air, gas terbekukan (seperti karbon monoksida, karbon dioksida, dan metana), debu, serta material batuan silikat. Berasal dari kawasan dingin Tata Surya luar seperti Sabuk Kuiper dan Awan Oort, komet sering kali disebut sebagai \"bola salju kotor\". Saat orbitnya yang sangat eliptis membawa komet mendekati Matahari, radiasi surya menyebabkan es menyublim secara spontan. Proses ini membentuk atmosfer sementara yang sangat luas berupa selubung gas dan debu yang disebut koma, serta dua ekor spektakuler yang terdorong menjauhi Matahari akibat angin surya dan tekanan radiasi.",
+    "specs": [
+      {
+        "label": "Jenis Objek",
+        "value": "Benda Kecil Tata Surya (Small Solar System Body / SSSB)"
+      },
+      {
+        "label": "Ukuran Inti (Nukleus)",
+        "value": "Beberapa ratus meter hingga ~50 km"
+      },
+      {
+        "label": "Komposisi Utama",
+        "value": "Es Air (H₂O), CO, CO₂, Metana, Debu Silikat & Organik"
+      },
+      {
+        "label": "Reflektivitas (Albedo)",
+        "value": "Sangat Rendah (~0,04) | Gelap Seperti Arang Saat Pasif"
+      },
+      {
+        "label": "Panjang Ekor",
+        "value": "Dapat Mencapai >100 Juta km Saat Mendekati Perihelion"
+      },
+      {
+        "label": "Asal Wilayah",
+        "value": "Sabuk Kuiper (Periode Pendek) & Awan Oort (Periode Panjang)"
+      },
+      {
+        "label": "Eksentrisitas Orbit",
+        "value": "Sangat Tinggi (Lonjong / Parabolis / Hiperbolis)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-220 °C (Jauh dari Matahari) hingga >100 °C (Sublimasi Aktif)"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Inti / Nukleus (Core Nucleus)",
+        "desc": "Bagian padat utama komet berstruktur sangat berpori yang tersusun atas campuran es, senyawa organik kompleks, dan debu batuan. Inti ini biasanya terbungkus kerak gelap yang tebal."
+      },
+      {
+        "name": "2. Koma (Coma Atmosphere)",
+        "desc": "Awan atmosfer kabut yang membungkus inti komet, terbentuk ketika energi radiasi Matahari memanaskan permukaan dan menyebabkan es menyublim menjadi gas yang membawa partikel debu."
+      },
+      {
+        "name": "3. Ekor Debu & Ekor Ion/Gas (Dust & Ion Tails)",
+        "desc": "Ekor debu (berwarna putih/kekuningan, melengkung sesuai lintasan orbit) dan ekor ion (berwarna kebiruan dari molekul terionisasi, lurus menunjuk tepat membelakangi arah Matahari akibat angin surya)."
+      }
+    ],
+    "model_src": "../assets/object/glb_comet/comet.glb"
+  },
+  "enceladus": {
+    "id": "enceladus",
+    "title": "Enceladus",
+    "subtitle": "Bulan Es Aktif Saturnus",
+    "image": "../assets/web/web_enceladus.webp",
+    "astro_info": "Enceladus adalah satelit alami terbesar keenam milik planet Saturnus. Meskipun berukuran tergolong kecil, Enceladus merupakan salah satu objek paling memikat di Tata Surya karena permukaannya hampir seluruhnya tertutup es murni yang sangat bersih, menjadikannya objek dengan tingkat reflektivitas (albedo) tertinggi di Tata Surya. Penemuan terpenting oleh wahana Cassini mengungkapkan adanya geyser kriovulkanik di wilayah kutub selatannya. Geyser ini secara aktif menyemburkan uap air, es, garam, dan molekul organik ke luar angkasa, membuktikan keberadaan samudra cair global bawah tanah dengan aktivitas hidrothermal yang berpotensi menyokong kehidupan (keterhunian astrobiologi).",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Satelit Alami / Bulan Kriovulkanik (Icy Moon)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: 504 km | Massa: 1,08 × 10²⁰ kg"
+      },
+      {
+        "label": "Komposisi",
+        "value": "Kerak Es Air Murni, Samudra Asin, & Inti Berbatu"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Kriovulkanisme (Semburan Geyser Uap Es & Organik)"
+      },
+      {
+        "label": "Rotasi",
+        "value": "1 Hari 9 Jam (Tidally Locked dengan Saturnus)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "0,113 m/s² (~0,0115 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "0 (Enceladus Adalah Bulan Bagi Saturnus)"
+      },
+      {
+        "label": "Jarak Orbit (dari Matahari)",
+        "value": "~9,58 AU (~1,43 Miliar km)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-201 °C (72 Kelvin)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~90 °C (Ventilasi Hidrothermal Dasar Laut)"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Kerak Es Luar (Outer Ice Shell)",
+        "desc": "Lapisan es air murni setebal 5 hingga 35 km yang sangat reflektif. Kerak ini menipis hingga hanya beberapa kilometer di wilayah Kutub Selatan tempat timbulnya retakan garis harimau (Tiger Stripes)."
+      },
+      {
+        "name": "2. Retakan Tiger Stripes (Tiger Stripe Fractures)",
+        "desc": "Celah-celah termal aktif di kutub selatan tempat meluncurnya geyser es air dan uap ke luar angkasa akibat dorongan tekanan hidrotermal bawah permukaan."
+      },
+      {
+        "name": "3. Samudra Bawah Tanah Global (Subsurface Ocean)",
+        "desc": "Lautan cair asin setebal ~30 km di bawah kerak es. Air ini kaya akan garam natrium, silika, serta molekul organik kompleks yang terus berada dalam kondisi cair."
+      },
+      {
+        "name": "4. Zone Ventilasi Hidrothermal (Hydrothermal Vents)",
+        "desc": "Pusat interaksi panas di dasar laut tempat air hangat menyerap mineral dari batuan inti, menghasilkan reaksi kimia mirip ventilasi laut dalam di Bumi."
+      },
+      {
+        "name": "5. Inti Poros Berbatu (Porous Rocky Core)",
+        "desc": "Pusat Enceladus berupa batuan silikat berpori yang dilalui oleh aliran air, menghasilkan panas gravitasi pasang surut akibat interaksi orbit dengan planet Saturnus."
+      }
+    ],
+    "model_src": "../assets/object/glb_enceladus/enceladus.glb"
+  },
+  "eris": {
+    "id": "eris",
+    "title": "Eris",
+    "subtitle": "Planet Kerdil Masif Cakram Tersebar",
+    "image": "../assets/web/web_eris.webp",
+    "astro_info": "Eris adalah planet kerdil paling masif dan terbesar kedua di luar orbit Neptunus. Ditemukan pada tahun 2005 di kawasan cakram tersebar (*scattered disc*), penemuan Eris memicu perdebatan sengit di komunitas astronomi dunia hingga berujung pada penetapan redefinisi resmi istilah \"planet\" oleh *International Astronomical Union* (IAU) pada tahun 2006. Memiliki orbit yang sangat lonjong (*eksentrik*), Eris membutuhkan waktu 558 tahun untuk sekali mengelilingi Matahari. Permukaannya sangat reflektif (albedo ~0,96) dan sebagian besar dilapisi es nitrogen serta metana beku yang membentuk atmosfer sementara ketika berada dekat dengan Matahari.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Planet Kerdil / Objek Cakram Tersebar (SDO)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: ~2.326 km | Massa: ~1,66 × 10²² kg"
+      },
+      {
+        "label": "Komposisi Permukaan",
+        "value": "Es Nitrogen Murni & Es Metana Beku"
+      },
+      {
+        "label": "Reflektivitas (Albedo)",
+        "value": "Sangat Tinggi (~0,96) | Hampir Memantulkan Seluruh Cahaya"
+      },
+      {
+        "label": "Rotasi",
+        "value": "25,9 Jam (~1,08 Hari Bumi)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "~0,82 m/s² (~0,083 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "1 Bulan Terkonfirmasi (Dysnomia)"
+      },
+      {
+        "label": "Jarak Orbit (dari Matahari)",
+        "value": "~67,7 AU hingga 97,5 AU (~10,1 hingga 14,6 Miliar km)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-243 °C hingga -217 °C (~30 K hingga 56 K)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~500 °C hingga 800 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Kerak Es Nitrogen & Metana (Nitrogen-Methane Ice Crust)",
+        "desc": "Lapisan luar tipis berwarna putih cemerlang yang didominasi oleh es nitrogen murni dan jejak es metana. Lapisan ini memadat menjadi es keras saat aphelion (titik terjauh) dan menguap membentuk atmosfer tipis saat perihelion."
+      },
+      {
+        "name": "2. Mantel Es Air Padat (Water-Ice Mantle)",
+        "desc": "Lapisan mantel tebal berbahan es air padat dengan kemungkinan keberadaan sisa-sisa larutan amonia-air dalam bentuk slush di kedalaman perbatasan inti."
+      },
+      {
+        "name": "3. Inti Batuan Silikat Masif (Massive Rocky Silicate Core)",
+        "desc": "Pusat planet kerdil berukuran besar yang terdiri dari batuan silikat padat dengan densitas tinggi (~2,52 g/cm³), menyusun sekitar 85% dari total volume internal Eris."
+      }
+    ],
+    "model_src": "../assets/object/glb_eris/eris.glb"
+  },
+  "europa": {
+    "id": "europa",
+    "title": "Europa",
+    "subtitle": "Satelit Galilean Yupiter",
+    "image": "../assets/web/web_europa.webp",
+    "astro_info": "Europa merupakan satelit alami terkecil dari empat bulan Galilean yang mengorbit planet Yupiter. Ditemukan oleh Galileo Galilei pada tahun 1610, Europa memiliki permukaan berupa kerak es air yang sangat halus dengan sedikit kawah impak, terpotong oleh garis-garis retakan silang (lineae). Di bawah kerak es tebalnya, diperkirakan terdapat samudera air cair global yang memiliki volume air dua kali lipat lebih banyak dibandingkan seluruh lautan di Bumi. Interaksi pasang surut gravitasi dengan Yupiter menjaga interior Europa tetap hangat melalui pemanasan pasang surut (tidal heating), menjadikannya salah satu kandidat lokasi paling menjanjikan dalam pencarian kehidupan ekstraterestrial di Tata Surya.",
+    "specs": [
+      {
+        "label": "Jenis Klasifikasi",
+        "value": "Satelit Es / Bulan Galilean (Yupiter)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: 3.122 km | Massa: 4,80 × 10²² kg"
+      },
+      {
+        "label": "Komposisi",
+        "value": "Kerak Es Air, Inti Logam/Batuan & Samudera Cair"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Atmosfer Oksigen Sangat Tipis (Eksosfer)"
+      },
+      {
+        "label": "Periode Orbit",
+        "value": "3,55 Hari Bumi (Terkunci Pasang Surut)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "1,315 m/s² (~0,134 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit Pendamping",
+        "value": "Io, Ganymede, Callisto (Bulan Utama)"
+      },
+      {
+        "label": "Jarak Orbit (ke Yupiter)",
+        "value": "~670.900 km dari Pusat Yupiter"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-160 °C (Khatulistiwa) hingga -220 °C (Kutub)"
+      },
+      {
+        "label": "Jarak Tempuh Orbit",
+        "value": "~0,004485 AU (670.900 km)"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Kerak Es Permukaan (Ice Crust)",
+        "desc": "Lapisan luar tebal berupa es padat berkisar 15–25 km yang melindungi interior bulan dari radiasi ekstrem Yupiter dan ruang hampa udara."
+      },
+      {
+        "name": "2. Samudera Air Cair Sub-permukaan",
+        "desc": "Lautan asin global berkedalaman 60–150 km di bawah kerak es, dipanaskan oleh gesekan pasang surut gravitasi Yupiter."
+      },
+      {
+        "name": "3. Mantil Batuan Silikat",
+        "desc": "Lapisan berbatu yang mengelilingi inti logam, kemungkinan memiliki aktivitas hidrothermal di dasar samudera."
+      },
+      {
+        "name": "4. Inti Logam Besi-Nikel",
+        "desc": "Pusat Europa yang padat dan kaya akan logam besi, memberikan kerapatan total rata-rata sebesar 3,01 g/cm³."
+      }
+    ],
+    "model_src": "../assets/object/glb_europa/europa.glb"
+  },
+  "haumea": {
+    "id": "haumea",
+    "title": "Haumea",
+    "subtitle": "Planet Kerdil Elipsoid Sabuk Kuiper",
+    "image": "../assets/web/web_haumea.webp",
+    "astro_info": "Haumea adalah salah satu planet kerdil paling unik di Sabuk Kuiper. Akibat rotasinya yang sangat cepat—hanya membutuhkan waktu sekitar 3,9 jam untuk satu putaran penuh—gaya sentrifugal mengubah bentuk Haumea menjadi elipsoid triaksial menyerupai bola rugby. Permukaan Haumea hampir seluruhnya diselimuti oleh lapisan es air kristalin yang sangat reflektif dengan bercak merah kaya senyawa organik. Pada tahun 2017, para astronom menemukan bahwa Haumea memiliki sistem cincin tipis selebar 70 km, menjadikannya objek trans-Neptunus (*TNO*) pertama yang terkonfirmasi memiliki cincin.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Planet Kerdil / Objek Trans-Neptunus (TNO)"
+      },
+      {
+        "label": "Ukuran & Forma",
+        "value": "~2.322 × 1.704 × 1.138 km (Bentuk Elipsoid Triaksial)"
+      },
+      {
+        "label": "Komposisi Permukaan",
+        "value": "Es Air Kristalin Murni & Bercak Senyawa Organik"
+      },
+      {
+        "label": "Keunikan Utamanya",
+        "value": "Rotasi Ultra Cepat (3,9 Jam) & Memiliki Cincin Tipis"
+      },
+      {
+        "label": "Rotasi",
+        "value": "3,91 Jam (Salah Satu yang Tercepat di Tata Surya)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "0,401 m/s² (~0,041 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "2 Bulan Terkonfirmasi (Hiʻiaka & Namaka)"
+      },
+      {
+        "label": "Jarak Orbit (dari Matahari)",
+        "value": "~43,13 AU (~6,45 Miliar km)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-241 °C (Rata-rata ~32 K)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~300 °C hingga 600 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Kerak Es Air Kristalin Tipis (Thin Crystalline Water-Ice Crust)",
+        "desc": "Lapisan luar tipis nan berkilau yang terbuat dari es air kristalin. Kemurnian kristal es ini diperhatikan terus diperbarui oleh radiasi radioaktif internal atau aktivitas kriovulkanisme skala kecil."
+      },
+      {
+        "name": "2. Mantel Es Mentah & Campuran Batuan (Icy Mantle & Transitional Layer)",
+        "desc": "Lapisan perantara berupa campuran es air padat bertekanan tinggi yang menyelimuti bagian inti. Sebagian besar massa es asli Haumea diperkirakan terlempar akibat tabrakan raksasa di masa lalu."
+      },
+      {
+        "name": "3. Inti Berbatu Densitas Tinggi (Dense Rocky Silicate Core)",
+        "desc": "Pusat planet kerdil yang didominasi oleh batuan silikat padat dengan kerapatan relatif tinggi (~2,6 hingga 3,3 g/cm³), menyusun mayoritas massa total Haumea."
+      }
+    ],
+    "model_src": "../assets/object/glb_haumea/haumea.glb"
+  },
+  "jupiter": {
+    "id": "jupiter",
+    "title": "Yupiter",
+    "subtitle": "Planet Raksasa Gas (Gas Giant)",
+    "image": "../assets/web/web_jupiter.webp",
+    "astro_info": "Yupiter adalah planet kelima dari Matahari dan merupakan planet terbesar di Tata Surya. Sebagai raksasa gas (gas giant), massanya mencapai 2,5 kali lipat dari gabungan seluruh planet lainnya di Tata Surya, atau sekitar 318 kali massa Bumi. Komposisi utama Yupiter didominasi oleh hidrogen (~90%) dan helium (~10%), menyerupai komposisi bintang induk Matahari. Yupiter terkenal dengan garis-garis awan pita (zones dan belts) yang dinamis serta badai antisisklon raksasa \"Bintik Merah Raksasa\" (Great Red Spot) yang telah berputar selama ratusan tahun. Gravitasi Yupiter yang sangat kuat memainkan peran kunci dalam menstabilkan dinamika keplanetan Tata Surya dan mengontrol populasi asteroid.",
+    "specs": [
+      {
+        "label": "Jenis Klasifikasi",
+        "value": "Planet Raksasa Gas (Gas Giant)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: ~142.984 km | Massa: 1,898 × 10²⁷ kg"
+      },
+      {
+        "label": "Komposisi",
+        "value": "89,8% Hidrogen (H₂), 10,2% Helium (He)"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Badai Amonia Ekstrem & Angin Zonal (>620 km/jam)"
+      },
+      {
+        "label": "Rotasi",
+        "value": "9 Jam 55 Menit (Rotasi Tercepat di Tata Surya)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "24,79 m/s² (~2,52 g Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "95 Satelit Terkonfirmasi (Termasuk 4 Bulan Galilean)"
+      },
+      {
+        "label": "Jarak Tempuh ( AU )",
+        "value": "5,20 AU (~778,5 juta km)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "~ -110 °C (pada tingkat tekanan atmosfer 1 bar)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~ 24.000 °C hingga 35.000 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Puncak Atmosfer & Lapisan Awan (Cloud Tops)",
+        "desc": "Lapisan luar setebal ~50 km yang terdiri dari kristal amonia, ammonium hidrosulfida, dan uap air. Angin kencang zonal (mencapai 620 km/jam) menciptakan pola garis kecokelatan (belts) dan putih (zones)."
+      },
+      {
+        "name": "2. Mantle Hidrogen Molekuler Cair (Liquid Molecular Hydrogen)",
+        "desc": "Di bawah puncak awan, peningkatan tekanan dan suhu yang ekstrem mengompres gas hidrogen menjadi fase cair molekuler hingga kedalaman puluhan ribu kilometer."
+      },
+      {
+        "name": "3. Lapisan Hidrogen Metalik Cair (Liquid Metallic Hydrogen)",
+        "desc": "Pada kedalaman ~20.000 km di mana tekanan melampaui 2 juta bar, molekul hidrogen terpecah menjadi atom dan elektronnya bergerak bebas. Fase logam cair ini konduktif secara elektrik, menghasilkan medan magnet magnetosfer Yupiter yang sangat kuat."
+      },
+      {
+        "name": "4. Inti Padat / Difus (Dense / Dilute Core)",
+        "desc": "Pusat planet yang diperkirakan berisi elemen-elemen berat (batuan, es, dan logam) dengan massa 10–21 kali massa Bumi. Data misi Juno menunjukkan intinya berbentuk \"difus\" atau terlarut sebagian akibat konveksi internal."
+      }
+    ],
+    "model_src": "../assets/object/glb_jupiter/jupiter.glb"
+  },
+  "makemake": {
+    "id": "makemake",
+    "title": "Makemake",
+    "subtitle": "Planet Kerdil Terang Sabuk Kuiper",
+    "image": "../assets/web/web_makemake.webp",
+    "astro_info": "Makemake adalah planet kerdil terbesar kedua di kawasan Sabuk Kuiper setelah Pluto. Ditemukan pada tahun 2005 dan dinamai berdasarkan dewa pencipta dalam mitologi Rapa Nui (Pulau Paskah), Makemake merupakan salah satu objek paling terang di Sabuk Kuiper karena permukaannya yang sangat reflektif (albedo tinggi). Permukaannya diselimuti oleh lapisan es metana, etana, dan nitrogen yang beku. Ketika mendekati perihelion (jarak terdekat dengan Matahari), es metana ini menguap membentuk atmosfer tipis sementara. Pada tahun 2015, Teleskop Luar Angkasa Hubble menemukan satelit alami pertamanya yang sangat gelap, dijuluki S/2015 (136472) 1 atau MK2.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Planet Kerdil / Objek Sabuk Kuiper (KBO)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: ~1.430 km | Massa: ~3,1 × 10²² kg"
+      },
+      {
+        "label": "Komposisi Permukaan",
+        "value": "Es Metana (~90%), Es Etana, Nitrogen & Tholin"
+      },
+      {
+        "label": "Reflektivitas (Albedo)",
+        "value": "Tinggi (~0,81) | Sangat Mengilap & Terang"
+      },
+      {
+        "label": "Rotasi",
+        "value": "22,83 Jam (~1 Hari Bumi)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "~0,5 m/s² (~0,05 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "1 Bulan Terkonfirmasi (MK2 / S/2015 (136472) 1)"
+      },
+      {
+        "label": "Jarak Orbit (dari Matahari)",
+        "value": "~45,79 AU (~6,85 Miliar km)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-243 °C (Rata-rata ~30 K)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~400 °C hingga 700 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Kerak Es Metana & Etana (Methane & Ethane Ice Crust)",
+        "desc": "Lapisan luar tipis berstruktur kristal es metana murni dan etana. Paparan sinar ultraviolet merangsang pembentukan senyawa tholin hidrokarbon kompleks yang memberikan rona jingga-kemerahan lembut pada beberapa wilayah."
+      },
+      {
+        "name": "2. Mantel Es Air Mentah (Water-Ice Mantle)",
+        "desc": "Lapisan mantel tebal yang sebagian besar terdiri dari es air padat. Mantel ini berpotensi menyelimuti sisa-sisa samudra amonia-air bawah tanah dalam skala mikro yang telah membeku."
+      },
+      {
+        "name": "3. Inti Batuan Silikat Padat (Rocky Silicate Core)",
+        "desc": "Pusat planet kerdil berupa material batuan silikat berdensitas sedang hingga tinggi yang menyusun sebagian besar volume dan massa internal Makemake."
+      }
+    ],
+    "model_src": "../assets/object/glb_makemake/makemake.glb"
+  },
+  "mars": {
+    "id": "mars",
+    "title": "Mars",
+    "subtitle": "Mars",
+    "image": "../assets/web/web_mars.webp",
+    "astro_info": "Mars merupakan planet keempat dari Matahari sekaligus planet terestrial terluar di Tata Surya. Dikenal sebagai \"Planet Merah\" akibat dominasi besi(III) oksida (hematit) di permukaannya, Mars memiliki karakteristik geologis yang sangat bervariasi, termasuk gunung berantai vulkanik terbesar di Tata Surya (Olympus Mons) dan sistem ngarai raksasa (Valles Marineris). Atmosfer Mars sangat tipis dan didominasi oleh karbon dioksida, yang menghasilkan tekanan permukaan sangat rendah (~0,006 atm relatif terhadap Bumi). Mars tidak memiliki medan magnet global intrinsik saat ini, melainkan hanya sisa-sisa kemagnetan kerak, sehingga atmosfernya tererosi secara terus-menerus oleh angin surya. Mars dikelilingi oleh dua satelit alami kecil berbentuk tak beraturan, yaitu Phobos dan Deimos, yang diduga merupakan asteroid terperangkap.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Planet Terestrial (Batuan)"
+      },
+      {
+        "label": "Ukuran",
+        "value": "3.389,5 km (Jari-jari Rata-rata)"
+      },
+      {
+        "label": "Komposisi Utama",
+        "value": "95,32% Karbon Dioksida (CO₂), 2,6% Nitrogen (N₂), 1,9% Argon (Ar), 0,16% Oksigen (O₂)"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Dingin Kering (Atmosfer Tipis dengan Badai Debu Global)"
+      },
+      {
+        "label": "Rotasi",
+        "value": "24 Jam 37 Menit 22 Detik (1 Sol)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "3,7207 m/s² (~0,379× Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "2 (Phobos dan Deimos)"
+      },
+      {
+        "label": "Jarak Tempuh Cahaya",
+        "value": "1,52 AU (~12,6 Menit Cahaya)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "~ -63 °C (Rata-rata Global; -140 °C hingga 20 °C)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~1.200 °C - 1.500 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Inti Logam Sebagian Cair (Metallic Core)",
+        "desc": "Pusat planet beradius sekitar 1.830–1.920 km yang kaya akan besi dan nikel serta diperkaya sulfur dan unsur ringan lainnya. Berdasarkan data seismik terbaru, inti Mars diduga dalam keadaan cair padat tanpa dinamo aktif yang beroperasi saat ini."
+      },
+      {
+        "name": "2. Mantel Silikat Padat (Mantle)",
+        "desc": "Lapisan setebal ~1.500 km yang terdiri atas batuan silikat kaya besi, seperti olivin dan piroksen. Mantel ini relatif kaku dibandingkan mantel Bumi, memperlambat proses konveksi dan mematikan tektonika lempeng aktif."
+      },
+      {
+        "name": "3. Kerak Batuan Tunggal (Crust)",
+        "desc": "Lapisan terluar padat dengan ketebalan rata-rata 10–50 km. Kerak Mars tidak terbagi menjadi lempeng-lempeng tektonik yang bergerak, melainkan berupa satu cangkang tunggal (single-shell) kaya basal dan mineral besi."
+      },
+      {
+        "name": "4. Regolit Oksida Besi & Tudung Es (Surface & Polar Caps)",
+        "desc": "Lapisan permukaan yang diselimuti debu halus besi oksida (karat) serta batuan vulkanik. Di area kutub, terdapat tudung es abadi yang terdiri dari kombinasi air es dan CO₂ padat (dry ice) yang menyusut dan mengembang sesuai musim."
+      }
+    ],
+    "model_src": "../assets/object/glb_mars/mars.glb"
+  },
+  "mercury": {
+    "id": "mercury",
+    "title": "Merkurius",
+    "subtitle": "Mercury",
+    "image": "../assets/web/web_mercury.webp",
+    "astro_info": "Merkurius merupakan planet dalam sekaligus objek terestrial terkecil di Tata Surya dengan orbit yang memiliki eksentrisitas tertinggi kedua setelah Pluto (jika dikategorikan). Terletak pada jarak perihelion hanya 0.307 AU, planet ini terkunci dalam resonansi putar-orbit (spin-orbit) 3:2 yang unik, di mana ia berotasi pada porosnya tepat tiga kali untuk setiap dua kali periode revolusi mengelilingi Matahari. Absennya atmosfer global yang masif digantikan oleh eksosfer dinamis yang super tipis akibat tekanan angin surya, menyebabkan fluktuasi termal permukaan paling ekstrem di antara planet lainnya. Secara geologis, permukaannya didominasi oleh kawah tumbukan purba bercampur dataran lava halus, serta jaringan sesar sungkup raksasa (rupes) yang menjadi bukti struktural bahwa planet ini mengalami global contraction (penyusutan volume) seiring mendinginnya bagian inti besi interior selama miliaran tahun. Jaringan magnetosfer internalnya yang lemah namun aktif mengindikasikan adanya konveksi fluida pada bagian inti luar logamnya.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Planet Terestrial (Batuan)"
+      },
+      {
+        "label": "Ukuran",
+        "value": "2.439,7 km (Jari-jari)"
+      },
+      {
+        "label": "Komposisi Utama",
+        "value": "60,2% Besi (Fe), 29,8% Batuan Silikat, 10,0% Nikel (Ni)"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Ekstrem Tanpa Atmosfer Utama"
+      },
+      {
+        "label": "Rotasi",
+        "value": "58,65 Hari Bumi (Resonansi 3:2)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "3,7 m/s² (~0,38× Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "0 (Tidak Ada Satelit Alami)"
+      },
+      {
+        "label": "Jarak Tempuh Cahaya",
+        "value": "~0,39 AU dari Matahari"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-180 °C (Malam) hingga 430 °C (Siang)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~5.000 °C - 7.000 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Inti Dalam Padat (Solid Inner Core)",
+        "desc": "Terletak di pusat geometris terdalam planet dengan radius estimasi sekitar 1.000 km. Merupakan bola kristal besi padat bertekanan tinggi hasil diferensiasi materi berat purba sejak masa awal pembentukan interior planet."
+      },
+      {
+        "name": "2. Inti Luar Cair (Liquid Outer Core)",
+        "desc": "Lapisan besi-nikel cair masif dengan ketebalan mencapai ~1.000 km. Data pengamatan wahana MESSENGER mendeteksi adanya konveksi fluida logam aktif di lapisan ini, memicu pergerakan efek dinamo elektro-magnetik yang menghasilkan medan magnet internal Merkurius."
+      },
+      {
+        "name": "3. Zona Transisi Sulfida (Iron Sulfide Outer Boundary Layer)",
+        "desc": "Lapisan pembatas transisi di atas inti luar cair yang kaya kandungan besi sulfat (FeS) padat. Keberadaan batas kimiawi belerang ini mengontrol serta membatasi laju kecepatan perpindahan energi panas sisa termal dari inti menuju mantel luar."
+      },
+      {
+        "name": "4. Mantel Silikat Tipis (Silicate Mantle)",
+        "desc": "Lapisan batuan elastis padat setebal hanya sekitar 400 km. Sangat terkompresi dan tipis karena sebagian besar material silikat luarnya terkelupas pada masa awal evolusi Tata Surya akibat peristiwa tumbukan kolosal (giant impact)."
+      },
+      {
+        "name": "5. Kerak Silikat Kaku (Rigid Silicate Crust)",
+        "desc": "Lapisan batuan padat terluar setebal 35-50 km yang kaku dan rapuh. Kaya akan magnesium-silikat namun miskin besi permukaan. Kerak ini dipenuhi oleh jaringan sesar naik raksasa (rupes) akibat menyusutnya volume planet (global contraction) seiring mendinginnya interior dalam selama miliaran tahun."
+      },
+      {
+        "name": "6. Eksosfer Permukaan (Surface-Bounded Exosphere)",
+        "desc": "Lapisan luar gas super tipis bertekanan hampir vakum (~10⁻¹⁴ Bar). Berisi atom Natrium (Na), Kalium (K), dan Helium (He) yang terlepas dari batuan permukaan akibat radiasi termal ekstrem dan hantaman angin surya, membentuk struktur selubung luar yang dinamis."
+      }
+    ],
+    "model_src": "../assets/object/glb_mercury/mercury.glb"
+  },
+  "moon": {
+    "id": "moon",
+    "title": "Bulan",
+    "subtitle": "Bulan",
+    "image": "../assets/web/web_bulan.webp",
+    "astro_info": "Bulan merupakan satu-satunya satelit alami Bumi sekaligus satelit terbesar kelima di Tata Surya. Berdasarkan hipotesis tabrakan masif (Giant Impact Hypothesis), Bulan terbentuk sekitar 4,5 miliar tahun lalu dari puing-puing paska benturan antara Bumi muda dan protoplanet seukuran Mars yang dinamai Theia. Bulan mengorbit Bumi dalam kondisi penguncian pasang surut (synchronous rotation/tidal locking), sehingga periode rotasinya persis sama dengan periode revolusinya (27,3 hari Bumi). Hal ini menyebabkan Bulan selalu memperlihatkan sisi yang sama (sisi dekat) ke arah Bumi. Bulan hampir tidak memiliki atmosfer nyata melainkan eksosfer yang sangat tipis, yang mengakibatkan fluktuasi suhu permukaan yang ekstrem serta pembentukan kawah-kawah dampak meteorit yang bertahan selama berbilang miliar tahun tanpa tererosi oleh cuaca.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Satelit Alami Berbatu (Satelit Terestrial)"
+      },
+      {
+        "label": "Ukuran",
+        "value": "1.737,4 km (Jari-jari Rata-rata)"
+      },
+      {
+        "label": "Komposisi Utama",
+        "value": "Oksigen (43%), Silikon (21%), Besi (13%), Kalsium (9%), Aluminium (7%), Magnesium (5%)"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Hampa Udara Ekstrem (Tanpa Atmosfer Signifikan)"
+      },
+      {
+        "label": "Rotasi",
+        "value": "27,3 Hari Bumi (Sinkron dengan Revolusi)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "1,62 m/s² (~0,166× Bumi)"
+      },
+      {
+        "label": "Induk Orbit",
+        "value": "Bumi (Jarak Rata-rata: ~384.400 km)"
+      },
+      {
+        "label": "Jarak Tempuh Cahaya",
+        "value": "~1,28 Detik Cahaya dari Bumi"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-130 °C hingga 120 °C (Kutub Ekstrem: -246 °C)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~1.300 °C - 1.500 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Inti Kecil Kaya Besi (Small Iron-Rich Core)",
+        "desc": "Inti relatif kecil berdiameter sekitar 480–600 km (~20% dari ukuran Bulan). Terdiri dari inti dalam padat kaya besi bersuhu sedang serta cangkang inti luar berupa logam cair tipis. Inti ini tidak menghasilkan medan magnet global yang kuat saat ini."
+      },
+      {
+        "name": "2. Mantel Mantel Silikat (Partial Melt & Rigid Mantle)",
+        "desc": "Lapisan mantel tebal yang didominasi oleh mineral olivin dan piroksen. Terbagi menjadi mantel dalam yang sebagian meleleh (partial melt) serta mantel luar padat yang kaku hingga kedalaman ~1.000 km."
+      },
+      {
+        "name": "3. Kerak Anortositis & Basaltik (Crust)",
+        "desc": "Lapisan permukaan padat dengan ketebalan rata-rata 50 km (lebih tebal di sisi jauh dibandingkan sisi dekat). Terdiri atas dataran tinggi anortosit yang terang (highlands) serta dataran basal vulkanik gelap (maria) yang terbentuk dari aliran lava kuno."
+      },
+      {
+        "name": "4. Regolit & Lapisan Lapukan Kosmik (Lunar Regolith)",
+        "desc": "Lapisan debu halus, fragmen batuan, dan kaca mikroskopis setebal 3–20 meter yang menutupi seluruh permukaan Bulan. Lapisan ini merupakan hasil tumbukan meteorit dan bombardir angin surya secara terus-menerus selama puluhan miliar tahun."
+      }
+    ],
+    "model_src": "../assets/object/glb_bulan/bulan.glb"
+  },
+  "neptune": {
+    "id": "neptune",
+    "title": "Neptunus",
+    "subtitle": "Planet Terluar Tata Surya",
+    "image": "../assets/web/web_neptunus.webp",
+    "astro_info": "Neptunus adalah planet kedelapan dan paling jauh dari Matahari di Tata Surya. Diklasifikasikan sebagai planet Ice Giant (Raksasa Es), Neptunus memiliki warna biru tua yang sangat pekat akibat kandungan gas metana di atmosfernya yang menyerap cahaya merah. Planet ini terkenal sebagai tempat dengan angin paling kencang di seluruh Tata Surya, mencapai kecepatan supersonik melebihi 2.100 km/jam. Neptunus juga memancarkan energi panas internal 2,6 kali lebih banyak daripada yang diterimanya dari Matahari, mendorong dinamika iklim yang sangat aktif seperti badai raksasa Great Dark Spot.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Planet Raksasa Es (Ice Giant)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: 49.244 km | Massa: 1,024 × 10²⁶ kg"
+      },
+      {
+        "label": "Komposisi",
+        "value": "Hidrogen (~80%), Helium (~19%), Metana (~1%)"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Angin Supersonik (2.100 km/jam) & Badai Raksasa"
+      },
+      {
+        "label": "Rotasi",
+        "value": "16 Jam 6 Menit (Searah / Prograde)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "11,15 m/s² (~1,14 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "16 Bulan Terkonfirmasi (Triton, Proteus, Nereid, dll)"
+      },
+      {
+        "label": "Jarak Orbit (dari Matahari)",
+        "value": "~30,07 AU (~4,5 Miliar km)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-201 °C (Awan Atas hingga -218 °C)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~5.100 °C (~5.400 K)"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Atmosfer Atas (Upper Atmosphere)",
+        "desc": "Lapisan gas paling luar yang didominasi hidrogen dan helium dengan lapisan tipis gas metana yang menyerap cahaya merah dan memberikan warna biru kobalt yang pekat pada Neptunus."
+      },
+      {
+        "name": "2. Atmosfer Dalam (Deep Atmosphere)",
+        "desc": "Lapisan gas bertekanan tinggi yang secara bertahap bertransisi menjadi cairan tebal, dihiasi sabuk awan metana dan hidrogen sulfida berkecepatan tinggi."
+      },
+      {
+        "name": "3. Mantel Es Cair Super Panas (Hot Fluid Icy Mantle)",
+        "desc": "Samudra cair tebal bertekanan tinggi yang membungkus inti, terdiri dari campuran air, amonia, dan metana cair dengan daya hantar listrik tinggi tempat lahirnya medan magnet Neptunus."
+      },
+      {
+        "name": "4. Inti Batuan Silikat & Besi (Silicate & Iron Core)",
+        "desc": "Pusat planet berupa inti padat kaya akan batuan silikat, besi, dan nikel berukuran sedikit lebih besar dari Bumi dengan suhu sangat tinggi mencapai 5.100 °C."
+      }
+    ],
+    "model_src": "../assets/object/glb_neptune/neptune.glb"
+  },
+  "oberon": {
+    "id": "oberon",
+    "title": "Oberon",
+    "subtitle": "Bulan Terluar Raksasa Uranus",
+    "image": "../assets/web/web_oberon.webp",
+    "astro_info": "Oberon adalah satelit alami terbesar kedua sekaligus bulan terluar dari sistem bulan utama planet Uranus. Ditemukan oleh William Herschel pada tahun 1787, Oberon dinamai dari karakter Raja Peri dalam karya Shakespeare. Permukaan Oberon sangat tua, gelap, dan dipenuhi oleh kawah tabrakan berukuran raksasa yang dikelilingi oleh material berwarna kecokelatan serta ngarai patahan tektonik kuno (*chasmata*). Mayoritas potret dekat Oberon diperoleh saat wahana Voyager 2 melintas pada Januari 1986. Keberadaan puncak gunung terisolasi setinggi 11 km di tepi permukaannya menjadi bukti aktivitas geologi masa lalu yang kini telah mati dan membeku.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Satelit Alami / Bulan Es Berbatu (Icy Moon)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: 1.523 km | Massa: 3,014 × 10²¹ kg"
+      },
+      {
+        "label": "Komposisi",
+        "value": "Es Air (~50%), Batuan Silikat (~40%), Senyawa Organik"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Permukaan Kuno Sangat Gelap & Penuh Kawah Kuno"
+      },
+      {
+        "label": "Rotasi",
+        "value": "13 Hari 11 Jam (Tidally Locked dengan Uranus)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "0,354 m/s² (~0,036 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "0 (Oberon Adalah Bulan Bagi Uranus)"
+      },
+      {
+        "label": "Jarak Orbit (dari Matahari)",
+        "value": "~19,22 AU (~2,87 Miliar km)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-203 °C hingga -210 °C (70 - 80 Kelvin)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~300 °C hingga 500 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Kerak Es & Batuan Kuno (Dirty Ice Crust)",
+        "desc": "Kerak luar tebal yang terdiri dari campuran es air keras berselimut material gelap berbatu dan jelaga organik akibat hujan radiasi luar angkasa selama miliaran tahun."
+      },
+      {
+        "name": "2. Lapisan Mantel Es / Laut Bawah Tanah (Icy Mantle)",
+        "desc": "Mantel es air tebal di bawah kerak. Ilmuwan menduga mungkin pernah ada samudra air cair cair berbahan dasar amonia tipis yang kini diduga telah membeku seluruhnya."
+      },
+      {
+        "name": "3. Inti Berbatu Padat (Large Rocky Core)",
+        "desc": "Pusat Oberon yang didominasi oleh inti batuan silikat padat mencakup sekitar 40–50% dari total jari-jari planet, mengandung sisa pemanasan radioaktif alami."
+      }
+    ],
+    "model_src": "../assets/object/glb_oberon/oberon.glb"
+  },
+  "phobos": {
+    "id": "phobos",
+    "title": "Phobos",
+    "subtitle": "Satelit Alami Mars",
+    "image": "../assets/web/web_phobos.webp",
+    "astro_info": "Phobos merupakan satelit alami terbesar dan terdekat yang mengorbit planet Mars. Ditemukan oleh Asaph Hall pada tahun 1877, Phobos memiliki morfologi asimetris menyerupai kentang akibat gravitasinya yang sangat rendah sehingga tidak mampu mencapai kesetimbangan hidrostatik. Phobos mengorbit Mars pada jarak rata-rata sekitar 6.000 km—menjadikannya satelit alami dengan jarak orbit terdekat ke planet induknya di seluruh Tata Surya. Akibat pasang surut gravitasi (tidal decay), Phobos mendekati Mars sekitar 1,8 meter per abad dan diperkirakan akan hancur membentuk cincin planetary atau menabrak permukaan Mars dalam kurun waktu 30 hingga 50 juta tahun ke depan.",
+    "specs": [
+      {
+        "label": "Jenis Klasifikasi",
+        "value": "Satelit Alami Terestrial (Bulan Mars)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Dimensi: 27 × 22 × 18 km | Massa: 1,06 × 10¹⁶ kg"
+      },
+      {
+        "label": "Komposisi",
+        "value": "Serupa Asteroid Tipe-C (Kaya Karbon, Silikat & Regolit)"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Hampa Udara Ekstrem (Tanpa Atmosfer)"
+      },
+      {
+        "label": "Periode Orbit",
+        "value": "7 Jam 39 Menit (Sangat Cepat)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "0,0057 m/s² (Sangat Lemah)"
+      },
+      {
+        "label": "Satelit Pendamping",
+        "value": "Deimos (Satelit Luar Mars)"
+      },
+      {
+        "label": "Jarak Orbit (ke Mars)",
+        "value": "~6.000 km dari Permukaan Mars"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-4 °C (Siang) hingga -112 °C (Malam)"
+      },
+      {
+        "label": "Jarak Tempuh Orbit",
+        "value": "~0.0000627 AU (9.376 km)"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Kawah Impak Stickney",
+        "desc": "Fitur geologi paling menonjol pada Phobos. Kawah raksasa seluas 9 km ini hampir menghancurkan seluruh struktur internal Phobos saat tumbukan terjadi di masa purba."
+      },
+      {
+        "name": "2. Lapisan Regolit Tebal",
+        "desc": "Permukaan Phobos tertutup oleh debu halus dan selimut batuan (regolit) setebal 100 meter, hasil dari penumpukan sisa-sisa lontaran impak kawah selama miliaran tahun."
+      },
+      {
+        "name": "3. Alur Fraktur Permukaan (Grooves)",
+        "desc": "Rangkaian alur dan retakan memanjang di permukaan Phobos diduga merupakan akibat dari gaya pasang surut gravitasi Mars atau lintasan sekunder puing tumbukan."
+      },
+      {
+        "name": "4. Porositas Internal (Struktur Tumpukan Puing)",
+        "desc": "Dengan kerapatan rata-rata yang sangat rendah (~1,87 g/cm³), Phobos diperkirakan memiliki rongga internal yang besar (porositas ~30%), mengindikasikan struktur tumpukan puing (rubble-pile)."
+      }
+    ],
+    "model_src": "../assets/object/glb_phobos/phobos.glb"
+  },
+  "pluto": {
+    "id": "pluto",
+    "title": "Pluto",
+    "subtitle": "Planet Kerdil Sabuk Kuiper",
+    "image": "../assets/web/web_pluto.webp",
+    "astro_info": "Pluto adalah planet kerdil (*dwarf planet*) terbesar yang diklasifikasikan ulang oleh IAU pada tahun 2006 karena tidak memenuhi kriteria pembersihan area di sekitar orbitnya (*clearing the neighborhood*). Terletak di kawasan dingin Sabuk Kuiper, Pluto memiliki tekstur permukaan kontras tinggi yang kaya akan es nitrogen, metana, dan karbon monoksida. Ciri geologi paling ikoniknya adalah Tombaugh Regio, struktur raksasa terang berbentuk hati yang mencakup dataran es nitrogen aktif bernama Sputnik Planitia. Pluto mengorbit Matahari dengan inklinasi dan eksentrisitas yang sangat tinggi serta dikelilingi oleh lima bulan, dengan Charon sebagai satelit alami terbesarnya.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Planet Kerdil / Objek Sabuk Kuiper (KBO)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: 2.376 km | Massa: 1,303 × 10²² kg"
+      },
+      {
+        "label": "Komposisi Permukaan",
+        "value": "Es Nitrogen (~98%), Metana, Karbon Monoksida, Tholin"
+      },
+      {
+        "label": "Fitur Ikonik",
+        "value": "Tombaugh Regio (\"Wilayah Hati\") & Sputnik Planitia"
+      },
+      {
+        "label": "Rotasi",
+        "value": "6,38 Hari (Retrograde / Terbalik)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "0,62 m/s² (~0,063 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "5 Bulan Terkonfirmasi (Charon, Styx, Nix, Kerberos, Hydra)"
+      },
+      {
+        "label": "Jarak Orbit (dari Matahari)",
+        "value": "~39,48 AU (~5,9 Miliar km)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-229 °C (Rata-rata ~44 K)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~500 °C hingga 800 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Kerak Es Organik & Nitrogen (Organic & Nitrogen Ice Crust)",
+        "desc": "Lapisan luar tipis nan beku yang terdiri dari es nitrogen, metana, dan karbon monoksida. Dihiasi oleh senyawa hidrokarbon kompleks (*tholin*) berwarna cokelat kemerahan serta pegunungan es air setinggi ribuan meter."
+      },
+      {
+        "name": "2. Mantel Es Air & Samudra Cair (Water Ice Mantle & Subsurface Ocean)",
+        "desc": "Lapisan mantel tebal kaya es air yang berpotensi memiliki samudra cair bawah tanah (*subsurface ocean*) berbahan dasar campuran air dan amonia yang tidak membeku akibat tekanan panas radiogenik."
+      },
+      {
+        "name": "3. Inti Berbatu Padat (Dense Rocky Core)",
+        "desc": "Pusat planet kerdil berupa materi berbatu padat silikat dan senyawa berdensitas tinggi yang membentuk hampir 70% dari total massa Pluto."
+      }
+    ],
+    "model_src": "../assets/object/glb_pluto/pluto.glb"
+  },
+  "saturnus": {
+    "id": "saturnus",
+    "title": "Saturnus",
+    "subtitle": "Planet Raksasa Cincin",
+    "image": "../assets/web/web_saturnus.webp",
+    "astro_info": "Saturnus adalah planet keenam dari Matahari dan planet terbesar kedua di Tata Surya setelah Yupiter. Diklasifikasikan sebagai raksasa gas, Saturnus memiliki radius rata-rata sekitar sembilan setengah kali radius Bumi. Meskipun memiliki volume yang sangat besar, kerapatan rata-rata Saturnus hanyalah satu per delapan kerapatan Bumi, menjadikannya satu-satunya planet di Tata Surya yang kurang padat daripada air. Saturnus paling dikenal dengan sistem cincin sekundernya yang megah, yang sebagian besar terdiri dari partikel-partikel es air dengan sedikit puing-puing batuan dan debu.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Planet Raksasa Gas (Gas Giant)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: 116.460 km | Massa: 5,68 × 10²⁶ kg"
+      },
+      {
+        "label": "Komposisi",
+        "value": "Hidrogen (~96%), Helium (~3%), Jejak Metana & Amonia"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Badai Angin Kencang hingga 1.800 km/jam"
+      },
+      {
+        "label": "Rotasi",
+        "value": "10 Jam 33 Menit (Sangat Cepat)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "10,44 m/s² (~1,06 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "146 Bulan Terkonfirmasi (Termasuk Titan & Enceladus)"
+      },
+      {
+        "label": "Jarak Tempuh",
+        "value": "~9,58 AU (~1,43 Miliar km dari matahari)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-138 °C (Awan Luar) hingga -185 °C"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~11.700 °C (~12.000 K)"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Atmosfer Luar / Lapisan Awan",
+        "desc": "Tebal dan dipenuhi pita awan amonia padat, amonium hidrosulfida, serta es air yang terdistribusi membentuk pola heksagon unik di kutub utara."
+      },
+      {
+        "name": "2. Mantil Hidrogen Cair & Metalik",
+        "desc": "Tekanan dan suhu ekstrem memampatkan gas hidrogen menjadi bentuk cair, hingga menuju tingkat lebih dalam yang menjadi hidrogen metalik konduktif listrik."
+      },
+      {
+        "name": "3. Inti Padat Berlapis Batuan & Es",
+        "desc": "Inti padat berbatu, besi, dan material es yang diperkirakan berukuran 9 hingga 22 kali massa Bumi dengan suhu mencapai belasan ribu Kelvin."
+      },
+      {
+        "name": "4. Sistem Cincin Raksasa",
+        "desc": "Terbentang hingga 282.000 km dari planet namun sangat tipis (sekitar 10 meter), terdiri dari jutaan bongkahan es air murni dan batuan silikat."
+      }
+    ],
+    "model_src": "../assets/object/glb_saturnus/saturnus.glb"
+  },
+  "sun": {
+    "id": "sun",
+    "title": "Matahari",
+    "subtitle": "The Sun / Sol",
+    "image": "../assets/web/web_sun.webp",
+    "astro_info": "Matahari adalah bintang deret utama tipe G (G2V) berumur sekitar 4.6 miliar tahun yang terletak di pusat Tata Surya. Komponen massanya mendominasi sistem dengan mencakup sekitar 99.86% dari total massa keseluruhan sistem tata surya. Sebagai bintang populasi I yang kaya akan logam, energi masif Matahari dihasilkan secara konstan melalui rantai reaksi fusi nuklir proton-proton di dalam intinya. Proses ini mengubah sekitar 600 juta ton hidrogen menjadi helium setiap detiknya, memancarkan radiasi elektromagnetik serta neutrino yang menjadi jangkar penggerak utama bagi iklim dan kelangsungan hidup di Bumi. Sebagai bola plasma dinamis, Matahari diatur oleh medan magnet kompleks yang berosilasi dalam siklus aktivitas periodik 11 tahunan, memengaruhi cuaca antariksa di seluruh heliosfer.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Bintang (Katai Kuning G2V)"
+      },
+      {
+        "label": "Ukuran",
+        "value": "~1.392.700 km (~109x Diameter Bumi)"
+      },
+      {
+        "label": "Komposisi",
+        "value": "73,4% Hidrogen, 24,8% Helium, 0,77% Oksigen, dll."
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Sangat Panas (Aktivitas Plasma & Angin Matahari)"
+      },
+      {
+        "label": "Periode Rotasi",
+        "value": "~25 Hari (Ekuator) – ~35 Hari (Kutub)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "274 m/s² (~28x Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "Tidak Ada (Mengorbit Pusat Galaksi Bima Sakti)"
+      },
+      {
+        "label": "Jarak Tempuh",
+        "value": "1 AU (~0,00001581 Tahun Cahaya ke Bumi)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "~5.500 °C (Fotosfer)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~15,7 Juta °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Inti Surya (The Core)",
+        "desc": "Lapisan interior paling pusat yang membentang dari pusat hingga sekitar 20-25% dari radius total Matahari. Densitasnya mencapai 150 g/cm³ dengan suhu ekstrem ~15,7 juta °C, menjadikannya satu-satunya tempat berlangsungnya fusi termonuklir yang mengubah Hidrogen menjadi Helium melalui rantai proton-proton ($p\\text{-}p\\text{ chain}$)."
+      },
+      {
+        "name": "2. Zona Radiatif (Radiative Zone)",
+        "desc": "Lapisan interior tengah yang meliputi sekitar 45% radius Matahari. Energi hasil fusi dari inti dihantarkan keluar dalam bentuk radiasi termal plasma. Foton-foton cahaya mengalami benturan konstan (fenomena *random walk*) di lapisan padat ini, membutuhkan waktu sekitar 100.000 hingga 200.000 tahun hanya untuk bergerak melintasi zona ini."
+      },
+      {
+        "name": "※ Batas Tachocline (Zona Geser Magnetik)",
+        "desc": "Lapisan transisi super tipis antara Zona Radiatif (yang berotasi seragam layaknya benda padat) dan Zona Konvektif (yang mengalami rotasi diferensial). Gesekan mekanis plasma yang sangat kontras di lapisan ini dipercaya menjadi tempat terbentuknya medan magnet utama Matahari melalui mekanisme dinamo surya."
+      },
+      {
+        "name": "3. Zona Konvektif (Convective Zone)",
+        "desc": "Lapisan interior terluar yang menyelimuti sisa 30% radius dalam Matahari. Plasma di zona ini tidak cukup padat untuk meneruskan radiasi foton secara langsung, sehingga energi dihantarkan melalui arus konveksi masif. Plasma panas bergerak naik ke permukaan, mendingin, lalu tenggelam kembali ke dalam."
+      },
+      {
+        "name": "4. Fotosfer (Photosphere - Permukaan Tampak)",
+        "desc": "Lapisan luar setebal ~500 km yang dianggap sebagai \"permukaan\" optik Matahari karena dari lapisan inilah foton cahaya terlepas secara bebas ke luar angkasa. Bersuhu sekitar 5.500 °C, lapisan ini memiliki struktur granular akibat sel konveksi dan menjadi tempat munculnya bintik matahari (*sunspots*)."
+      },
+      {
+        "name": "※ Zona Minimum Temperatur (Temperature Minimum Area)",
+        "desc": "Batas atmosfer bawah setebal beberapa ratus kilometer di atas fotosfer di mana suhu turun ke titik terdingin Matahari, yaitu sekitar 4.100 °C (4.380 K), sebelum melonjak drastis kembali di lapisan atmosfer atas."
+      },
+      {
+        "name": "5. Kromosfer (Chromosphere)",
+        "desc": "Lapisan atmosfer tengah setebal ~2.000 km yang didominasi oleh spektrum emisi gas hidrogen berwarna kemerahan. Keunikan lapisan ini adalah suhunya justru melonjak naik seiring bertambahnya ketinggian, bergerak dari 4.500 °C hingga mencapai sekitar 20.000 °C pada bagian atas."
+      },
+      {
+        "name": "6. Korona Surya (Corona)",
+        "desc": "Lapisan atmosfer terluar yang sangat renggang namun mencuat hingga jutaan kilometer ke ruang angkasa. Suhu plasma korona mengalami anomali pemanasan ekstrem hingga menembus 1 hingga 3 juta °C. Korona terus berekspansi ke ruang antarplanet membentuk angin surya (*solar wind*) dan hanya dapat dilihat langsung dari Bumi dengan mata telanjang saat terjadi Gerhana Matahari Total."
+      }
+    ],
+    "model_src": "../assets/object/glb_sun/sun.glb"
+  },
+  "titan": {
+    "id": "titan",
+    "title": "Titan",
+    "subtitle": "Bulan Terbesar Saturnus",
+    "image": "../assets/web/web_titan.webp",
+    "astro_info": "Titan adalah satelit alami terbesar Saturnus dan bulan terbesar kedua di Tata Surya setelah Ganimede. Titan merupakan satu-satunya bulan dengan atmosfer padat serta satu-satunya objek selain Bumi yang memiliki cairan stabil berupa danau dan laut metana di permukaannya. Sebagian besar informasi detail Titan berhasil terungkap melalui misi luar angkasa Cassini-Huygens (NASA/ESA) yang mendaratkan wahana Huygens di permukaannya pada tahun 2005. Menariknya, kondisi kimiawi organik Titan menjadikannya target utama studi astrobiologi, di mana misi masa depan NASA seperti Dragonfly dijadwalkan untuk mengeksplorasi potensi kehidupan mikroba serta siklus pra-biotiknya.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Satelit Alami / Bulan Es (Icy Moon)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: 5.149 km | Massa: 1,345 × 10²³ kg"
+      },
+      {
+        "label": "Komposisi",
+        "value": "Atmosfer: Nitrogen (~95%), Metana (~5%) | Es Air & Batuan"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Siklus Hujan Metana & Kabut Fotokimia Organik"
+      },
+      {
+        "label": "Rotasi",
+        "value": "15 Hari 22 Jam (Tidally Locked dengan Saturnus)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "1,352 m/s² (~0,138 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "0 (Titan Adalah Bulan Bagi Saturnus)"
+      },
+      {
+        "label": "Jarak Orbit (dari Matahari)",
+        "value": "~9,58 AU (~1,43 Miliar km)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-179,2 °C (94 Kelvin)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~1.000 °C hingga 1.500 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Atmosfer Padat & Kabut Organik",
+        "desc": "Lapisan udara tebal (sekitar 600 km) yang didominasi 95% nitrogen dan 5% metana. Sinar ultraviolet matahari memicu reaksi kimia kompleks yang menghasilkan kabut oranye pekat penyelimut permukaan."
+      },
+      {
+        "name": "2. Kerak Es Luar (Ice Shell)",
+        "desc": "Lapisan terluar berupa es air yang membeku sangat keras pada suhu -179°C hingga berfungsi layaknya batuan Bumi, membendung danau, sungai, serta puncak bukit pasir hidrokarbon."
+      },
+      {
+        "name": "3. Samudra Bawah Tanah (Subsurface Ocean)",
+        "desc": "Lautan cair yang diperkirakan memiliki kedalaman puluhan kilometer di bawah kerak es. Lapisan ini terdiri dari campuran air murni, garam, dan amonia cair yang berfungsi sebagai antibeku alami."
+      },
+      {
+        "name": "4. Lapisan Es Tekanan Tinggi (High-Pressure Ice)",
+        "desc": "Fase es berkepadatan tinggi (seperti Es VI atau VII) yang terbentuk akibat tekanan kompresi yang sangat ekstrem dari beban samudra cair di atasnya."
+      },
+      {
+        "name": "5. Inti Batuan Silikat (Silicate Core)",
+        "desc": "Pusat Titan berupa inti padat berbatu silikat dan campuran es/besi berdiameter sekitar 4.000 km, yang menyimpan sisa panas internal alami planet dari proses pembentukannya."
+      }
+    ],
+    "model_src": "../assets/object/glb_titan/titan.glb"
+  },
+  "triton": {
+    "id": "triton",
+    "title": "Triton",
+    "subtitle": "Bulan Es Ber-Geyser Neptunus",
+    "image": "../assets/web/web_triton.webp",
+    "astro_info": "Triton adalah bulan terbesar dari planet Neptunus dan merupakan satu-satunya bulan besar di Tata Surya yang mengorbit dengan arah berlawanan dari rotasi planet induknya (orbit retrograde). Karakteristik ini mengindikasikan bahwa Triton dulunya adalah objek Sabuk Kuiper (seperti Pluto) yang tertangkap oleh gravitasi Neptunus. Triton merupakan salah satu objek terdingin di Tata Surya dengan permukaan tertutup es nitrogen, karbon monoksida, dan metana. Uniknya, Triton memiliki geyser aktif yang menyemburkan gas nitrogen dan debu gelap sejauh 8 km ke atmosfer tipisnya.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Satelit Alami / Bulan Es Geologis (Icy Moon)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: 2.706 km | Massa: 2,14 × 10²² kg"
+      },
+      {
+        "label": "Komposisi Permukaan",
+        "value": "Es Nitrogen (~55%), Es Air, Karbon Dioksida, Metana"
+      },
+      {
+        "label": "Fenomena Unik",
+        "value": "Geyser Es Nitrogen Aktif & Medan Medan 'Melon'"
+      },
+      {
+        "label": "Rotasi & Orbit",
+        "value": "5,87 Hari (Terikat Pasang Surut / Retrograde)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "0,779 m/s² (~0,079 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "0 (Triton Adalah Bulan Bagi Neptunus)"
+      },
+      {
+        "label": "Jarak Orbit (dari Neptunus)",
+        "value": "~354.760 km"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-235 °C (Salah Satu Objek Terdingin)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~600 °C hingga 900 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Kerak Es Nitrogen & Air (Nitrogen & Water Ice Crust)",
+        "desc": "Lapisan luar tipis nan beku yang didominasi kristal es nitrogen, metana, dan es air. Permukaannya dihiasi kriket retakan tektonik unik yang mirip kulit buah melon (*Cantaloupe Terrain*) serta ventilasi geyser aktif."
+      },
+      {
+        "name": "2. Samudra Bawah Tanah / Mantel Es (Subsurface Ocean & Icy Mantle)",
+        "desc": "Lapisan mantel yang kaya akan es air. Dipercaya memiliki samudra cair bawah tanah berbahan dasar air dan amonia yang tidak membeku akibat tekanan tinggi serta peluruhan radioaktif."
+      },
+      {
+        "name": "3. Inti Berbatu & Logam Padat (Metallic-Rocky Core)",
+        "desc": "Pusat Triton berupa inti berbatu kaya silikat dan logam padat yang membentuk hampir 60–70% dari total massa bulan ini, menjadikannya sangat padat dibandingkan bulan es lainnya."
+      }
+    ],
+    "model_src": "../assets/object/glb_triton/triton.glb"
+  },
+  "uranus": {
+    "id": "uranus",
+    "title": "Uranus",
+    "subtitle": "Planet Raksasa Es Utama",
+    "image": "../assets/web/web_uranus.webp",
+    "astro_info": "Uranus adalah planet ketujuh dari Matahari dan planet terbesar ketiga berdasarkan diameter di Tata Surya. Berbeda dengan raksasa gas Jupiter dan Saturnus, Uranus dikategorikan sebagai Ice Giant (Raksasa Es) karena komposisi internalnya didominasi oleh unsur-unsur yang lebih berat seperti air, amonia, dan metana dalam wujud es panas bertekanan tinggi. Keunikan paling mencolok dari Uranus adalah kemiringan sumbu rotasinya yang ekstrem mencapai 97,77 derajat, membuat planet ini seolah-olah menggelinding mengelilingi Matahari. Hal ini diperkirakan akibat tabrakan dahsyat dengan objek seukuran Bumi pada masa awal pembentukan Tata Surya.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Planet Raksasa Es (Ice Giant)"
+      },
+      {
+        "label": "Ukuran & Massa",
+        "value": "Diameter: 50.724 km | Massa: 8,681 × 10²⁵ kg"
+      },
+      {
+        "label": "Komposisi",
+        "value": "Hidrogen (~83%), Helium (~15%), Metana (~2%)"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Angin Kencang hingga 900 km/jam & Musim Ekstrem"
+      },
+      {
+        "label": "Rotasi",
+        "value": "17 Jam 14 Menit (Mundur / Retrograde)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "8,69 m/s² (~0,886 Gravitasi Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "28 Bulan Terkonfirmasi (Titania, Oberon, Miranda, dll)"
+      },
+      {
+        "label": "Jarak Orbit (dari Matahari)",
+        "value": "~19,22 AU (~2,87 Miliar km)"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "-224,2 °C (Atmosfer Terdingin di Tata Surya)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~4.700 °C (~5.000 K)"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Atmosfer Atas (Upper Atmosphere)",
+        "desc": "Lapisan gas yang didominasi hidrogen dan helium dengan jejak gas metana. Gas metana ini menyerap cahaya merah dari Matahari sehingga memantulkan warna biru kehijauan (sian) yang khas."
+      },
+      {
+        "name": "2. Atmosfer Dalam (Deep Atmosphere)",
+        "desc": "Tingkatan atmosfer bertekanan tinggi yang secara bertahap bertransisi dari fasa gas menjadi padat-cair, dipenuhi awan kristal amonia, hidrogen sulfida, serta es air."
+      },
+      {
+        "name": "3. Mantel Es Cair Hangat (Icy Mantle / Fluid Ocean)",
+        "desc": "Lapisan terbesar yang membungkus inti, berupa samudra fluida super panas dan tebal yang terdiri dari cairan air, amonia, dan metana bertekanan tinggi dengan daya hantar listrik tinggi."
+      },
+      {
+        "name": "4. Inti Batuan Silikat & Besi (Silicate/Iron-Nickel Core)",
+        "desc": "Pusat planet berupa inti padat berukuran relatif kecil (sekitar 0,55 massa Bumi) yang terdiri dari kombinasi batuan silikat, besi, dan nikel dengan suhu mencapai belasan ribu derajat."
+      }
+    ],
+    "model_src": "../assets/object/glb_uranus/uranus.glb"
+  },
+  "venus": {
+    "id": "venus",
+    "title": "Venus",
+    "subtitle": "Venus",
+    "image": "../assets/web/web_venus.webp",
+    "astro_info": "Venus merupakan planet kedua dari Matahari yang sering disebut sebagai planet kembaran Bumi karena memiliki kemiripan ukuran, massa, dan kerapatan bawaan. Namun, evolusi geologisnya mengalami fenomena runaway greenhouse effect (efek rumah kaca lepas kendali) yang ekstrem akibat atmosfer padat yang didominasi oleh gas karbon dioksida dan awan asam sulfat murni. Tekanan atmosfer permukaan Venus mencapai sekitar 92 bar (~92 kali tekanan permukaan Bumi), setara dengan tekanan di kedalaman 900 meter di bawah laut Bumi. Venus menunjukkan fenomena rotasi retrograd unik, di mana planet ini berotasi searah jarum jam (dari timur ke barat) dengan periode rotasi terpanjang di Tata Surya (243 hari Bumi), lebih lambat dibandingkan periode revolusinya (224,7 hari Bumi). Secara geologis, Venus tidak memiliki lempeng tektonik aktif layaknya Bumi, melainkan mengalami pembaharuan permukaan global (global resurfacing event) berkala akibat aktivitas vulkanisme masif.",
+    "specs": [
+      {
+        "label": "Jenis",
+        "value": "Planet Terestrial (Batuan)"
+      },
+      {
+        "label": "Ukuran",
+        "value": "6.051,8 km (Jari-jari)"
+      },
+      {
+        "label": "Komposisi Utama",
+        "value": "96,5% Karbon Dioksida (CO₂), 3,5% Nitrogen (N₂), 0,015% Sulfur Dioksida (SO₂)"
+      },
+      {
+        "label": "Suhu (Iklim)",
+        "value": "Ekstrem Berawan Asam Sulfat"
+      },
+      {
+        "label": "Rotasi",
+        "value": "243 Hari Bumi (Retrograd / Terbalik)"
+      },
+      {
+        "label": "Gravitasi",
+        "value": "8,87 m/s² (~0,90× Bumi)"
+      },
+      {
+        "label": "Satelit",
+        "value": "0 (Tidak Ada Satelit Alami)"
+      },
+      {
+        "label": "Jarak Tempuh Cahaya",
+        "value": "~0,72 AU dari Matahari"
+      },
+      {
+        "label": "Suhu Permukaan",
+        "value": "~462 °C (Konstan Siang/Malam)"
+      },
+      {
+        "label": "Suhu Inti",
+        "value": "~5.000 °C - 6.000 °C"
+      }
+    ],
+    "layers": [
+      {
+        "name": "1. Inti Logam Padat dan Cair (Metallic Core)",
+        "desc": "Terletak di pusat planet dengan jari-jari estimasi sekitar 3.000 km. Terdiri atas paduan besi-nikel. Meskipun ukurannya menyerupai inti Bumi, absennya medan magnet internal masif diperkirakan akibat lambatnya konveksi cairan atau kurangnya perbedaan suhu kritis antara inti dan mantel."
+      },
+      {
+        "name": "2. Mantel Silikat Berbatu (Silicate Mantle)",
+        "desc": "Lapisan batuan padat namun plastis dengan ketebalan sekitar 3.000 km. Konveksi termal lambat di dalam mantel ini menjadi pendorong utama arus magma vulkanik dan pembentukan fitur gunung berapi raksasa di atas permukaan."
+      },
+      {
+        "name": "3. Kerak Silikat Padat (Basaltic Crust)",
+        "desc": "Kerak batuan basaltik berstruktur kaku dengan ketebalan estimasi 10–50 km. Kerak ini sangat kering dan didominasi oleh ribuan struktur vulkanik, rekahan guratan tektonik (tesserae), serta aliran lava padat yang berumur relatif muda (~300–600 juta tahun)."
+      },
+      {
+        "name": "4. Atmosfer Padat & Lapisan Awan (Dense Atmosphere & Cloud Layer)",
+        "desc": "Selubung gas tebal hingga ketinggian ~100 km dari permukaan. Didominasi gas CO₂ dengan awan padat droplet asam sulfat (H₂SO₄) pada ketinggian 48–70 km yang memantulkan sebagian besar cahaya Matahari dan mengurung radiasi inframerah panas secara ekstrem."
+      }
+    ],
+    "model_src": "../assets/object/glb_venus/venus.glb"
+  }
+}
