@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objek Astronomi - ArCubo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Model Viewer CDN untuk Interaktif 3D -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+
+    <link rel="stylesheet" href="../styles/page-detail.css">
+    <script src="../scripts/detail.js" defer></script>
+</head>
+<body>
+
+    <div class="container" id="app-container">
+        <header>
+            <a href="../learning.html" class="btn-back">
+                <i class="fa-solid fa-arrow-left"></i> Kembali
+            </a>
+            <div class="header-tag">
+                <i class="fa-solid fa-graduation-cap"></i> Media Pembelajaran ArCubo
+            </div>
+        </header>
+
+        <section class="hero-section">
+            <div class="planet-frame">
+                <img id="planet-img" src="" alt="Objek AR" class="object-visual">
+            </div>
+            <h1 id="planet-title">Memuat Data...</h1>
+            <p id="planet-subtitle"></p>
+        </section>
+
+        <!-- Kartu 1: Detail Astrofisika -->
+        <div class="card" id="card-astro">
+            <div class="card-title">
+                <i class="fa-solid fa-circle-info"></i> Detail Astrofisika
+            </div>
+            <p class="info-text" id="planet-astro-info"></p>
+        </div>
+
+        <!-- Kartu 2: Karakteristik Fisik -->
+        <div class="card" id="card-specs">
+            <div class="card-title">
+                <i class="fa-solid fa-chart-simple"></i> Karakteristik Fisik
+            </div>
+            <div class="spec-grid" id="planet-specs-grid"></div>
+        </div>
+
+        <!-- Kartu 3: Lapisan Penyusun -->
+        <div class="card" id="card-layers">
+            <div class="card-title">
+                <i class="fa-solid fa-layer-group"></i> Lapisan Penyusun
+            </div>
+            <ul class="structure-list" id="planet-layers-list"></ul>
+        </div>
+
+        <!-- Kartu 4: Live Object 3D Viewer -->
+        <div class="card" id="card-3d">
+            <div class="card-title">
+                <i class="fa-solid fa-cube"></i> Simulasi 3D Interaktif
+            </div>
+            <div class="pv-container">
+                <div class="pv-tag">SIMULASI 3D</div>
+                <model-viewer
+                    id="planet-viewer"
+                    src=""
+                    alt="Model 3D"
+                    auto-rotate
+                    camera-controls
+                    shadow-intensity="1"
+                    exposure="1"
+                    loading="lazy">
+                </model-viewer>
+            </div>
+            <div class="pov-controls">
+                <button class="pov-btn" onclick="setPOV('0deg 75deg 105%')">Ekuator</button>
+                <button class="pov-btn" onclick="setPOV('0deg 0deg 105%')">Kutub Utara</button>
+                <button class="pov-btn" onclick="setPOV('0deg 180deg 105%')">Kutub Selatan</button>
+                <button class="pov-btn" onclick="setPOV('45deg 60deg 70%')">Close-up</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Fixed Bottom Navigation -->
+    <nav class="bottom-nav">
+        <a href="../dashboard.html" class="btn-action active">
+            <i class="fa-solid fa-house"></i>
+            <span>Menu</span>
+        </a>
+
+        <a href="../camera.html" class="btn-scan" title="Scan AR Marker">
+            <i class="fa-solid fa-camera-rotate"></i>
+        </a>
+
+        <a href="../quiz.html" class="btn-action">
+            <i class="fa-solid fa-lightbulb"></i>
+            <span>Kuis</span>
+        </a>
+    </nav>
+
+    <script>
+        function setPOV(orbit) {
+            const viewer = document.getElementById('planet-viewer');
+            if (viewer) {
+                viewer.cameraOrbit = orbit;
+            }
+        }
+    </script>
+</body>
+</html>
