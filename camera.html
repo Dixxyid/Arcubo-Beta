@@ -1,13 +1,47 @@
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kamera AR | WebAR Solar System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <style>
+        .camera-container {
+            text-align: center;
+            padding: 20px;
+        }
+        .btn-launch {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #0056b3 0%, #00a8ff 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 700;
+            box-shadow: 0 0 15px rgba(0, 168, 255, 0.4);
+            transition: all 0.3s ease;
+        }
+        .btn-launch:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 25px rgba(0, 168, 255, 0.6);
+        }
+    </style>
 </head>
-
 <body>
-
+    <div class="container camera-container">
+        <header class="header">
+            <h1>KAMERA <span>AR</span></h1>
+            <p>Siapkan kamera Anda untuk memulai pemindaian marker AR 3D</p>
+        </header>
+        <div class="menu-wrapper">
+            <a href="starts.html" class="btn-launch">⚡ Buka Mode Kamera WebAR</a>
+            <br>
+            <a href="dashboard.html" class="btn-sub" style="justify-content: center; text-decoration: none; margin-top: 10px;">
+                <span class="txt-id">Kembali ke Dashboard</span>
+            </a>
+        </div>
+    </div>
 </body>
-
 </html>
