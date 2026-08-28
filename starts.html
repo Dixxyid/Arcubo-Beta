@@ -1,19 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>AR Solar System - Kamera Interaktif</title>
+    <title>AR Solar System - Hybrid WebAR (MindAR Marker & AlvaAR SLAM)</title>
     
     <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v7.2.0/dist/aframe-extras.min.js"></script>
+
+    <!-- MindAR Image Tracking Engine -->
     <script src="https://cdn.jsdelivr.net/npm/mind-ar@1.2.5/dist/mindar-image-aframe.prod.js"></script>
     
+    <!-- AlvaAR WebSLAM tracking Engine -->
+    <script src="https://cdn.jsdelivr.net/npm/alva-ar@0.2.0/dist/alva-ar.js"></script>
+
     <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-detector.js"></script>
     <script src="https://raw.githack.com/AR-js-org/studio-backend/master/src/modules/marker/tools/gesture-handler.js"></script>
     <link rel="stylesheet" href="styles/starts.css">
+
+    <script type="module" src="scripts/app.js"></script>
 </head>
 
-<body>
+<body x-data="arcuboApp">
+    <!-- Scene Hybrid AR (MindAR Image Target & AlvaAR Markerless SLAM) -->
     <a-scene 
         id="ar-scene"
         mindar-image="imageTargetSrc: ./markers/targets.mind; autoStart: false; maxTrack: 1; filterMinCF: 0.0001; filterBeta: 0.005; uiLoading: yes; uiScanning: yes;" 
@@ -31,46 +40,85 @@
         <a-light type="directional" position="0 10 5" intensity="1.2"></a-light>
     </a-scene>
 
-    <div id="Status-Notif" class="status-scanning">🔍 Menyiapkan sistem AR...</div>
-    <a href="dashboard.html" class="back-btn">Back</a>
+    <!-- Overlay Kontrol Alpine.js untuk Switch Mode AR -->
+    <div style="position: fixed; top: 15px; left: 15px; z-index: 1000; display: flex; gap: 10px; align-items: center;">
+        <a href="dashboard.html" class="back-btn" style="position: static;">Kembali</a>
+        <button
+            @click="toggleMode()"
+            style="background: rgba(11, 13, 23, 0.85); color: #00d2d3; border: 1px solid rgba(0, 210, 211, 0.5); padding: 8px 16px; border-radius: 20px; font-weight: bold; backdrop-filter: blur(8px); cursor: pointer;"
+            x-text="currentMode === 'mindar' ? '📷 Mode: MindAR (Marker)' : '📍 Mode: AlvaAR (SLAM Markerless)'">
+        </button>
+    </div>
+
+    <div id="Status-Notif" class="status-scanning">🔍 Menyiapkan sistem Hybrid WebAR...</div>
 
     <script>
+        let alvaCameraInstance = null;
+
+        function toggleMode() {
+            const statusNotif = document.querySelector("#Status-Notif");
+            const sceneEl = document.querySelector("#ar-scene");
+            const app = window.Alpine ? Alpine.$data(document.body) : null;
+
+            if (!app) return;
+
+            if (app.currentMode === 'mindar') {
+                app.currentMode = 'alvaar';
+                statusNotif.innerHTML = `📍 Mode AlvaAR (SLAM Markerless) Aktif. Tap layar untuk menempatkan objek 3D.`;
+                statusNotif.className = "status-found";
+
+                // Matikan MindAR & Inisialisasi AlvaAR SLAM
+                const arSystem = sceneEl.systems["mindar-image-system"];
+                if (arSystem) arSystem.stop();
+
+                if (window.AlvaAR) {
+                    AlvaAR.Initialize(window.innerWidth, window.innerHeight).then(instance => {
+                        alvaCameraInstance = instance;
+                        console.log("AlvaAR SLAM Tracker initialized.");
+                    }).catch(err => console.log("AlvaAR init:", err));
+                }
+            } else {
+                app.currentMode = 'mindar';
+                statusNotif.innerHTML = `🔍 Mode MindAR (Marker) Aktif. Arahkan Kamera ke Marker AR.`;
+                statusNotif.className = "status-scanning";
+
+                if (alvaCameraInstance && alvaCameraInstance.stop) {
+                    alvaCameraInstance.stop();
+                }
+                const arSystem = sceneEl.systems["mindar-image-system"];
+                if (arSystem) arSystem.start();
+            }
+        }
+
         document.addEventListener("DOMContentLoaded", () => {
             const sceneEl = document.querySelector("#ar-scene");
             const assetContainer = document.querySelector("#asset-container");
             const statusNotif = document.querySelector("#Status-Notif");
 
-            // Fungsi untuk menyalakan kamera AR secara aman
             const startARSystem = () => {
                 const arSystem = sceneEl.systems["mindar-image-system"];
                 if (arSystem) {
                     arSystem.start();
-                    statusNotif.innerHTML = `🔍 Arahkan Kamera ke Marker. Putar untuk Rotasi.`;
+                    statusNotif.innerHTML = `🔍 Arahkan Kamera ke Marker AR.`;
                     statusNotif.className = "status-scanning";
                 } else {
-                    // Jika sistem belum siap, tunggu 100ms lalu coba lagi
                     setTimeout(startARSystem, 100);
                 }
             };
 
-            // Mengambil data dari file JSON terpisah
             fetch('objects.json')
                 .then(response => response.json())
                 .then(objects => {
                     objects.forEach(obj => {
-                        
-                        // 1. Suntik ke <a-assets>
                         const assetItem = document.createElement('a-asset-item');
                         assetItem.setAttribute('id', obj.assetId);
                         assetItem.setAttribute('src', obj.src);
                         assetContainer.appendChild(assetItem);
 
-                        // 2. Buat target marker
                         const targetEntity = document.createElement('a-entity');
                         targetEntity.setAttribute('mindar-image-target', `targetIndex: ${obj.targetIndex}`);
                         targetEntity.setAttribute('id', `target-${obj.targetIndex}`);
 
-                        // 3. Buat model 3D
                         const modelEntity = document.createElement('a-gltf-model');
                         modelEntity.setAttribute('id', obj.id);
                         modelEntity.setAttribute('src', `#${obj.assetId}`);
@@ -82,23 +130,20 @@
                         const cleanName = obj.id.replace('Model', '').toUpperCase();
                         modelEntity.setAttribute('data-name', cleanName);
 
-                        // 4. Gabungkan komponen
                         targetEntity.appendChild(modelEntity);
                         sceneEl.appendChild(targetEntity);
 
-                        // 5. EVENT LISTENER: Indikator Scan Real-time
                         targetEntity.addEventListener("targetFound", () => {
                             statusNotif.innerHTML = `✅ Objek Terdeteksi: <b>${cleanName}</b>`;
                             statusNotif.className = "status-found";
                         });
 
                         targetEntity.addEventListener("targetLost", () => {
-                            statusNotif.innerHTML = `🔍 Mencari Marker... Putar untuk Rotasi.`;
+                            statusNotif.innerHTML = `🔍 Mencari Marker...`;
                             statusNotif.className = "status-scanning";
                         });
                     });
 
-                    // PERBAIKAN UTAMA: Jika scene sudah loaded, langsung start. Jika belum, tunggu event 'loaded'.
                     if (sceneEl.hasLoaded) {
                         startARSystem();
                     } else {
